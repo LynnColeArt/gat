@@ -182,8 +182,11 @@ gat platforms register --yaml ~/my-platform.yaml
 This allows you to use different SSH keys for different accounts without conflicts:
 
 ```bash
-# Clone a GitHub repository using profile-specific SSH
+# Clone a GitHub repository using a gat profile alias (created via `gat add github-work ...`)
 git clone git@github-work:username/repo.git
+
+# Or clone directly via the platform host
+git clone git@github.com:username/repo.git
 
 # Clone a GitLab repository using profile-specific SSH
 git clone git@gitlab-work:username/repo.git

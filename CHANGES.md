@@ -44,6 +44,8 @@ Previously, `gat` was primarily focused on GitHub identities. This implementatio
 
 ### Adding Profiles for Different Platforms
 
+Profile identifiers in examples below (for example `github-work`) are user-defined aliases managed by `gat`, not necessarily built-in git hosts.
+
 ```bash
 # GitHub profile
 gat add github-work --username "ghuser" --email "work@example.com" --platform "github"
